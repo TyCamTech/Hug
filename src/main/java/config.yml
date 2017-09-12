@@ -1,0 +1,14 @@
+cooldown_timer: 12
+minimum_hug_distance: 30
+easter_eggs:
+    creeper: "Trying to hug a creeper is a terrible idea"
+    spider: "Nope. Nope! Nope!!"
+    zombie: "Do you want more zombies? Because that's how you get more zombies!"
+    skeleton: "That would be like hugging a broom"
+    slime: "Ewww..."
+    wither: "You've been withered! Just kidding!"
+    dinnerbone: "Free Hugs!"
+    autcraft: "Hugging a computer server isn't as pleasant as you'd expect"
+    broadcast: "Broadcast prefers bacon"
+    group: "Group Hug!"
+    console: "Console has no arms"

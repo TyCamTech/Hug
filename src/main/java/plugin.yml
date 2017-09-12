@@ -1,0 +1,14 @@
+name: ${project.artifactId}
+main: hug.autcraft.hug.Hug
+version: ${project.version}
+description: Give someone a hug
+commands:
+  hug:
+    description: Give a player a hug
+permissions:
+  hug.hug:
+    description: Gives access to /hug command
+  hug.reload:
+    description: Allows access to config reload via /hug reload
+  hug.cooldown_bypass:
+    description: Removes cooldown timer
