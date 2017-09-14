@@ -1,4 +1,4 @@
-cooldown_timer: 12
+cooldown_timer: 25
 minimum_hug_distance: 30
 easter_eggs:
     creeper: "Trying to hug a creeper is a terrible idea"
@@ -12,3 +12,20 @@ easter_eggs:
     broadcast: "Broadcast prefers bacon"
     group: "Group Hug!"
     console: "Console has no arms"
+    bessie: "The lag feels like it slips away..."
+    enderman: "Just don't look"
+    magmacube: "Sure, hugging a squishy ball of lava sounds like fun..."
+    bc: "Please, call me Broadcast"
+    husk: "The hug is nice but now you feel hungry for some reason"
+    shulker: "A hug that is lighter than air"
+    villager: "Villagers only trade emeralds"
+    illager: "Johnny?"
+    blaze: "Hot! Hot! Hot!"
+    ghast: "There there... don't cry"
+    cactus: "Hugging a cactus is never a good idea"
+    polarbear: "My turn... BEAR HUG!"
+    bacon: "Why are you hugging? EAT."
+    sheep: "So flooooofy!!!"
+    pig: "You hug your uncooked bacon"
+    cow: "You really mooooved me with your hug."
+    witch: "Minecraft? I thought you said Witchcraft!"

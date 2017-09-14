@@ -100,8 +100,10 @@ public class Hug extends JavaPlugin {
             }
             
             // Get the hugger and huggee's locations
+            String playerWorld = player.getWorld().getName();
+            String huggeeWorld = huggee.getWorld().getName();
             Location playerLocation = player.getLocation();
-            if( playerLocation.distance( huggee.getLocation() ) > hug_distance ){
+            if( playerWorld.equals(huggeeWorld) == false || playerLocation.distance( huggee.getLocation() ) > hug_distance ){
                 sender.sendMessage(msg(huggee.getName() + " is too far away to hug!", true));
                 return true;
             }
