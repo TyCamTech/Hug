@@ -6,6 +6,8 @@
 package hug.autcraft.hug;
 
 import java.util.HashMap;
+import java.util.List;
+import java.util.Random;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
@@ -171,8 +173,11 @@ public class Hug extends JavaPlugin {
             return null;
         }
 
-        // Return the easter egg text
-        // TODO: Add alternative texts in a list and have it grab one randomly so they're different each time
-        return configSection.getString(input.toLowerCase());
+        // Get each optional response, pick one at random and return it
+        List options = configSection.getList(input);
+        Random r = new Random();
+        int key = r.nextInt(options.toArray().length-0);
+
+        return options.get(key).toString();
     }
 }
