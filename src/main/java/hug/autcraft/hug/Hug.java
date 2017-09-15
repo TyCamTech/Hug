@@ -173,8 +173,8 @@ public class Hug extends JavaPlugin {
             return null;
         }
 
-        // Get each optional response, pick one at random and return it
-        List options = configSection.getList(input);
+        // Get each optional response, pick one at random 
+        List options = configSection.getList(input.toLowerCase());
         Random r = new Random();
         int key = r.nextInt(options.toArray().length-0);
 

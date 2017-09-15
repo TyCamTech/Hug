@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>hug.autcraft</groupId>
     <artifactId>hug</artifactId>
-    <version>0.3</version>
+    <version>0.4</version>
     <name>Hug</name>
     <packaging>jar</packaging>
     <build>

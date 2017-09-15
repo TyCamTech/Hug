@@ -18,13 +18,14 @@ easter_eggs:
       - "You've been withered! Just kidding!"
     witch:
       - "Minecraft? I thought you said Witchcraft!"
-      - That was magical...why don't you stop by and stay for a spell.
+      - That was magical... why don't you stop by and stay for a spell.
     enderman:
       - "Just don't look"
     husk:
       - "The hug is nice but now you feel hungry for some reason"
     shulker:
       - "A hug that is lighter than air"
+      - "It's good to think outside the box"
     illager:
       - "Johnny?"
     blaze:
@@ -41,24 +42,45 @@ easter_eggs:
       - "Broadcast prefers bacon"
     group:
       - "Group Hug!"
+      - "Nice try but you are not able to hug everyone on the server at once"
+      - "Your arms must be super long!"
     console:
       - "Console has no arms"
+      - "01110100 01101000 01100001 01101110 01101011 01110011"
     bessie:
-      - "The lag feels like it slips away..."
+      - "You can almost start to feel the lag slip away..."
+      - "You do realize that you named me after a cow, right?"
     bc:
       - "Please, call me Broadcast"
     villager:
       - "Villagers only trade emeralds"
       - "I would hug you but my sleeves are stuck together"
+      - "Don't squish the nose"
     polarbear:
       - "My turn... BEAR HUG!"
+      - "Don't ever try this in real life"
     bacon:
       - "Why are you hugging? EAT."
+      - "Bacon is life"
+      - "The only thing better than bacon is more bacon"
     sheep:
       - "So flooooofy!!!"
+      - "<Insert Baaaaaad Joke Here>"
     pig:
       - "You hug your uncooked bacon"
+      - "Did you know that pigs are actually smarter than dogs?"
     cow:
       - "You really mooooved me with your hug."
+      - "Turning grass into steaks since 1512"
+    llama:
+      - "I spit in your general direction!"
+      - "You're spitacular"
+    rabbit:
+      - "That makes me so hoppy!"
+      - "What's up, Doc?"
+    squid:
+      - "I had no inkling that you cared"
+      - "That tickles. You're Kraken me up."
     cactus:
       - "Hugging a cactus is never a good idea"
+      - "You're in for a prickly situation"
