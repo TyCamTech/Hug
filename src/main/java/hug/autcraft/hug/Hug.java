@@ -96,7 +96,9 @@ public class Hug extends JavaPlugin {
 
             // If there is an argument, or more... check to see if there's a player that matches arg[0]
             Player huggee = getPlayer(name);
-            if( huggee == null ){
+
+            // If the hugged player is vanished, pretend they're offline.
+            if( huggee == null || !player.canSee(huggee) ){
                 sender.sendMessage(msg(name + " is not online", true));
                 return true;
             }
