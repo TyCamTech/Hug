@@ -2,14 +2,14 @@ cooldown_timer: 25
 minimum_hug_distance: 30
 easter_eggs:
     creeper:
-      - "Trying to hug a creeper is a terrible idea"
+      - "Trying to hug a creeper is a terrible idea."
     spider:
       - "Nope. Nope! Nope!!"
       - "Little known fact: Spiders are the best huggers in the world. They have 8 arms!"
     zombie:
       - "Do you want more zombies? Because that's how you get more zombies!"
     skeleton:
-      - "That would be like hugging a broom"
+      - "That would be like hugging a broom."
     slime:
       - "Ewww..."
     magmacube:
@@ -18,14 +18,14 @@ easter_eggs:
       - "You've been withered! Just kidding!"
     witch:
       - "Minecraft? I thought you said Witchcraft!"
-      - That was magical... why don't you stop by and stay for a spell.
+      - "That was magical... why don't you stop by and stay for a spell."
     enderman:
-      - "Just don't look"
+      - "Just don't look."
     husk:
-      - "The hug is nice but now you feel hungry for some reason"
+      - "The hug is nice but now you feel hungry for some reason."
     shulker:
-      - "A hug that is lighter than air"
-      - "It's good to think outside the box"
+      - "A hug that is lighter than air."
+      - "It's good to think outside the box."
     illager:
       - "Johnny?"
     blaze:
@@ -37,50 +37,70 @@ easter_eggs:
     dinnerbone:
       - "Free Hugs!"
     autcraft:
-      - "Hugging a computer server isn't as pleasant as you'd expect"
+      - "Hugging a computer server isn't as pleasant as you'd expect."
     broadcast:
-      - "Broadcast prefers bacon"
+      - "Broadcast prefers bacon."
     group:
       - "Group Hug!"
-      - "Nice try but you are not able to hug everyone on the server at once"
+      - "Nice try but you are not able to hug everyone on the server at once."
       - "Your arms must be super long!"
     console:
-      - "Console has no arms"
+      - "Console has no arms."
       - "01110100 01101000 01100001 01101110 01101011 01110011"
     bessie:
       - "You can almost start to feel the lag slip away..."
       - "You do realize that you named me after a cow, right?"
     bc:
-      - "Please, call me Broadcast"
+      - "Please, call me Broadcast."
     villager:
-      - "Villagers only trade emeralds"
-      - "I would hug you but my sleeves are stuck together"
-      - "Don't squish the nose"
+      - "Villagers only trade emeralds."
+      - "I would hug you but my sleeves are stuck together."
+      - "Don't squish the nose."
     polarbear:
       - "My turn... BEAR HUG!"
-      - "Don't ever try this in real life"
+      - "Don't ever try this in real life."
     bacon:
       - "Why are you hugging? EAT."
-      - "Bacon is life"
-      - "The only thing better than bacon is more bacon"
+      - "Bacon is life."
+      - "The only thing better than bacon is more bacon."
     sheep:
       - "So flooooofy!!!"
       - "<Insert Baaaaaad Joke Here>"
     pig:
-      - "You hug your uncooked bacon"
+      - "You hug your uncooked bacon."
       - "Did you know that pigs are actually smarter than dogs?"
     cow:
       - "You really mooooved me with your hug."
-      - "Turning grass into steaks since 1512"
+      - "Turning grass into steaks since 1512."
     llama:
       - "I spit in your general direction!"
-      - "You're spitacular"
+      - "You're spitacular."
     rabbit:
       - "That makes me so hoppy!"
       - "What's up, Doc?"
     squid:
-      - "I had no inkling that you cared"
+      - "I had no inkling that you cared."
       - "That tickles. You're Kraken me up."
     cactus:
-      - "Hugging a cactus is never a good idea"
-      - "You're in for a prickly situation"
+      - "Hugging a cactus is never a good idea."
+      - "You're in for a prickly situation."
+    panda:
+      - "This is not bamboo."
+    fox:
+      - "What does the fox say?"
+    pillager:
+      - "What do you call a pillage in a villager, a pillager."
+    drowned:
+      - "Help, I am a drowned."
+    dolphin:
+      - "Swim with me."
+    phantom:
+      - "Don't hug me, I might swoop you away."
+      - "Always remembrane to sleep or you might get swooped."
+    turtle:
+      - "Please do not ride on me, but you can watch me."
+    pufferfish:
+      - "I might look pretty, but I am poisonous."
+      - "Don't eat this."
+    salmon:
+      - "Brr, it is cold in this biome."
