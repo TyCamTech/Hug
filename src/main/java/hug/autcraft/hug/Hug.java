@@ -31,11 +31,11 @@ public class Hug extends JavaPlugin {
     
     @Override
     public void onEnable(){
-        // initialize the config
+        // initialize the config.
         saveDefaultConfig();
         getConfig().options().copyDefaults(true);
 
-        // Get defaults
+        // Get defaults.
         cooldown_timer = getConfig().getInt("cooldown_timer");
         hug_distance = getConfig().getInt("minimum_hug_distance");
     }
@@ -49,7 +49,7 @@ public class Hug extends JavaPlugin {
             return true;
         }
 
-        // First check to see if args[0] is 'reload' because then it's a request to reloag the config
+        // First check to see if args[0] is 'reload' because then it's a request to reload the config.
         if( sender.hasPermission("hug.reload") && args.length > 0 && args[0].equalsIgnoreCase("reload") ){
             reloadConfig();
             sender.sendMessage(msg("Hug Config File Reloaded"));
@@ -63,7 +63,7 @@ public class Hug extends JavaPlugin {
             return true;
         }
 
-        // If this is a player calling the command
+        // If this is a player calling the command.
         if( sender instanceof Player ){
             Player player = (Player) sender;
 
@@ -84,7 +84,7 @@ public class Hug extends JavaPlugin {
                 return true;
             }
 
-            // "name" is easier to deal with than args[0]
+            // "name" is easier to deal with than args[0].
             String name = args[0];
 
             // Check for an easter egg message. If there is one, return it. Otherwise, continue on.
@@ -94,7 +94,7 @@ public class Hug extends JavaPlugin {
                 return true;
             }
 
-            // If there is an argument, or more... check to see if there's a player that matches arg[0]
+            // If there is an argument, or more... check to see if there's a player that matches arg[0].
             Player huggee = getPlayer(name);
 
             // If the hugged player is vanished, pretend they're offline.
@@ -103,7 +103,7 @@ public class Hug extends JavaPlugin {
                 return true;
             }
             
-            // Get the hugger and huggee's locations
+            // Get the hugger and huggee's locations.
             String playerWorld = player.getWorld().getName();
             String huggeeWorld = huggee.getWorld().getName();
             Location playerLocation = player.getLocation();
@@ -122,7 +122,7 @@ public class Hug extends JavaPlugin {
     }
 
     /*
-    Just a handy place to pass all strings so that we can colour them as necessary
+    Just a handy place to pass all strings so that we can colour them as necessary.
     */
     public String msg(String msg, boolean red){
         // If red is true, return the message in red.
@@ -134,7 +134,7 @@ public class Hug extends JavaPlugin {
     }
 
     /*
-    Overload, set red to false as default
+    Overload, set red to false as default.
     */
     public String msg(String msg){
         return msg(msg, false);
@@ -175,7 +175,7 @@ public class Hug extends JavaPlugin {
             return null;
         }
 
-        // Get each optional response, pick one at random 
+        // Get each optional response, pick one at random.
         List options = configSection.getList(input.toLowerCase());
         Random r = new Random();
         int key = r.nextInt(options.toArray().length-0);
